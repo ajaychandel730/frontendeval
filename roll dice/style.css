@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body{
+    height: 100vh;
+    padding: 10px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start !important;
+}
+
+.container{
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/* form css */
+.dice_form{
+    flex-direction: column;
+    gap: 4px;
+}
+
+.dice_input{
+   width: 100%;
+   outline: none;
+}
+
+
+.btn{
+    padding: 4px 2rem;
+    border: 1px solid skyblue;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgb(22, 174, 235);
+  border-color: white;
+  color: white;
+}
+
+.roll_container{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+
+}
+
+.roll{
+    width: 150px;
+    height: 150px;
+    border : 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.roll_point{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.roll_2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.roll_2 .line1{
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   height: 100%;
+}
+
+.roll_4 .line{
+    display: flex;
+    flex-direction: column;
+     justify-content: space-between;
+}

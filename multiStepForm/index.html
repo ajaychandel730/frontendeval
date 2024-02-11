@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="flex_center">
+    <div class="container flex_center">
+        <button type="button" class="back_btn" onclick="handleBack(event)">Back</button>
+      <form onsubmit="handleClick(event)" id="login_form" class="flex_center">
+        <label class="login_label" for="name">
+          Name <br />
+          <input type="text" id="name" name="name"/>
+        </label>
+        <label class="login_label" for="Email">
+          Email <br />
+          <input type="email" id="Email" name ="email" />
+        </label>
+        <label class="login_label" for="date">
+             <br/>
+           <input type="text" id="date"  placeholder="mm/dd/yy" name="date">
+       </label>
+        <label class="login_label" for="Password" >
+          Password <br />
+          <input type="password" id="Password" name="password"/>
+        </label>
+        <button class="btn" type="submit">next</button>
+      </form>
+       <ul class="full_list">
+          
+       </ul>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
